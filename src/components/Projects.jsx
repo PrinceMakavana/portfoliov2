@@ -9,21 +9,23 @@ const Projects = () => {
     <section className='bg-bg_light_primary'>
       <div className='md:container px-5 pt-14 min-h-screen flex flex-col justify-between'>
         <div>
-          <h2 className='title'>{Projects.title}</h2>
-          <h4 className='subtitle'>{Projects.subtitle}</h4>
+          <h2 data-aos="fade-down" className='title'>{Projects.title}</h2>
+          <h4 data-aos="fade-down" className='subtitle'>{Projects.subtitle}</h4>
           <br />
         </div>
         <div className='flex items-center lg:flex-row flex-col-reverse gap-5'>
-          <img
+          {/* <img
+          data-aos="fade-right"
             src={Projects.image}
             alt=''
             className='max-w-[45vw] min-w-[22rem]'
-          />
+          /> */}
           <Swiper
             pagination={{ clickable: true }}
             modules={[Pagination]}
             className='rounded-3xl pb-16 max-w-xs drop-shadow-primary self-start'
             spaceBetween={20}
+            data-aos="fade-left"
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide

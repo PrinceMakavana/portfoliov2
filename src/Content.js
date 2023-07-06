@@ -1,7 +1,8 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
 
-import figma from "./assets/images/Skills/figma.png";
+import htmlCss from "./assets/images/Skills/html_css.png";
+import javaScript from "./assets/images/Skills/javascript.png";
 import sketch from "./assets/images/Skills/sketch.png";
 import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
@@ -79,14 +80,14 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
+        name: "HTML/CSS",
+        para: "Master the art of crafting captivating web experiences with the perfect blend of structure (HTML) and style (CSS)",
+        logo: htmlCss,
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
+        name: "javaScript",
+        para: "Powering interactive web experiences with its versatile and dynamic programming language.",
+        logo: javaScript,
       },
       {
         name: "Adobe Photoshop",
