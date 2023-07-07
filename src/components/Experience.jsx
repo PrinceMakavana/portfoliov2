@@ -8,14 +8,14 @@ function Experience() {
     <section id="experience">
       <div className='md:container px-5 pt-14 min-h-screen flex flex-col'>
         <div>
-          <h2 className='title'>{Experience.title}</h2>
-          <h2 className='subtitle'>{Experience.subtitle}</h2>
+          <h2 data-aos='fade-down' className='title'>{Experience.title}</h2>
+          <h2 data-aos='fade-down' className='subtitle'>{Experience.subtitle}</h2>
         </div>
         {/* <!-- Container --> */}
         <div class='space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent '>
           {/* <!-- Timeline Item --> */}
           {Experience.experience_content.map((experienceItem, i) => (
-            <div class='relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active '>
+            <div class='relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active ' data-aos='fade-down'>
               {/* <!-- Icon --> */}
               <div
                 class={`${
