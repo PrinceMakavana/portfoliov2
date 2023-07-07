@@ -1,20 +1,32 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
 
-import htmlCss from "./assets/images/Skills/html_css.png";
+import cPlus from "./assets/images/Skills/c++.png";
+import htmlLogo from "./assets/images/Skills/html.png";
+import cssLogo from "./assets/images/Skills/css.png";
+import sassLogo from "./assets/images/Skills/sass.png";
+import bootstrapLogo from "./assets/images/Skills/bootstrap.png";
+import tailwindLogo from "./assets/images/Skills/tailwind.png";
 import javaScript from "./assets/images/Skills/javascript.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
+import typescriptLogo from "./assets/images/Skills/typescript.png";
 import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import reduxLogo from "./assets/images/Skills/redux.png";
+import muiLogo from "./assets/images/Skills/mui.png";
+import firebaseLogo from "./assets/images/Skills/firebase.png";
+import MongodbLogo from "./assets/images/Skills/mongodb.png";
+import githubLogo from "./assets/images/Skills/github.png";
+import awsLogo from "./assets/images/Skills/aws.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/Projects/img1.png";
-import project2 from "./assets/images/Projects/img2.png";
+import codechefProject from "./assets/images/Projects/codechef.png";
+import apyMaterialProject from "./assets/images/Projects/apyMaterial.png";
+import indiWaterProject from "./assets/images/Projects/indiwater.png";
+import expenseTrackerProject from "./assets/images/Projects/expenseTracker.png";
+import scientificCalculatorProject from "./assets/images/Projects/scientific_calculator.png";
+
 import project3 from "./assets/images/Projects/img3.png";
 import person_project from "./assets/images/Projects/person.png";
 
@@ -30,10 +42,12 @@ import Hireme_person2 from "./assets/images/Hireme/person2.png";
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
-import { TbSmartHome } from "react-icons/tb";
+import { TbArrowSharpTurnLeft, TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
+import { AiFillGithub } from "react-icons/ai";
+import { GrSettingsOption } from "react-icons/gr";
 
 export const content = {
   nav: [
@@ -51,6 +65,10 @@ export const content = {
     },
     {
       link: "#projects",
+      icon: GrSettingsOption,
+    },
+    {
+      link: "#experience",
       icon: RiProjectorLine,
     },
     {
@@ -66,11 +84,11 @@ export const content = {
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
+        count: "1+",
         text: "Years of Experinse in Web development",
       },
       {
-        count: "20+",
+        count: "5+",
         text: "Projects Worked in my career",
       },
     ],
@@ -80,34 +98,79 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "HTML/CSS",
-        para: "Master the art of crafting captivating web experiences with the perfect blend of structure (HTML) and style (CSS)",
-        logo: htmlCss,
+        name: "C/C++",
+        para: "Lorem ipsum text  dummy",
+        logo: cPlus,
       },
       {
-        name: "javaScript",
-        para: "Powering interactive web experiences with its versatile and dynamic programming language.",
+        name: "HTML",
+        para: "Lorem ipsum text  dummy",
+        logo: htmlLogo,
+      },
+      {
+        name: "CSS",
+        para: "Lorem ipsum text  dummy",
+        logo: cssLogo,
+      },
+      {
+        name: "SASS",
+        para: "Lorem ipsum text  dummy",
+        logo: sassLogo,
+      },
+      {
+        name: "Bootstrap",
+        para: "Lorem ipsum text  dummy",
+        logo: bootstrapLogo,
+      },
+      {
+        name: "Tailwind",
+        para: "Lorem ipsum text  dummy",
+        logo: tailwindLogo,
+      },
+      {
+        name: "JavaScript",
+        para: "Lorem ipsum text  dummy",
         logo: javaScript,
       },
       {
-        name: "Adobe Photoshop",
+        name: "TypeScript",
         para: "Lorem ipsum text  dummy",
-        logo: ps,
+        logo: typescriptLogo,
       },
       {
-        name: "React js",
+        name: "React Js",
         para: "Lorem ipsum text  dummy",
         logo: reactjs,
       },
       {
-        name: "Sketch",
+        name: "Redux",
         para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        logo: reduxLogo,
       },
       {
-        name: "Python",
+        name: "Mateiral Ui",
         para: "Lorem ipsum text  dummy",
-        logo: python,
+        logo: muiLogo,
+      },
+      {
+        name: "Firebase",
+        para: "Lorem ipsum text  dummy",
+        logo: firebaseLogo,
+      },
+      {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: MongodbLogo,
+      },
+      {
+        name: "Github",
+        para: "Lorem ipsum text  dummy",
+        logo: githubLogo,
+      },
+      {
+        name: "AWS",
+        para: "Lorem ipsum text  dummy",
+        logo: awsLogo,
       },
     ],
     icon: MdArrowForward,
@@ -117,18 +180,18 @@ export const content = {
     subtitle: "WHAT I OFFER",
     service_content: [
       {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Project Management",
+        para: "Want to gain real life expricence of managing a complete software project cycle",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Web Development",
+        para: "Creating and maintaining responsive and user-friendly websites through coding, design, and optimization",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "SEO Optimization",
+        para: "Implementing strategic SEO techniques to improve website visibility and rankings on search engine result pages (SERPs).",
         logo: services_logo3,
       },
     ],
@@ -139,16 +202,39 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
-        image: project1,
+        title: "Codechef Chapter",
+        para: "This is the Web-Site for Codechef GEC-Rajkot Chapter has been made by me.",
+        image: codechefProject,
+        code: "",
+        link: "https://codechef-gec-rajkot-chapter.github.io/main/",
       },
       {
-        title: "Social Media web",
-        image: project2,
+        title: "Apy Material",
+        para: "Here we are adding all books related to GTU Computer Engineering and this is famous and High Ranked on Google. (+1M impression on Google Search)",
+        image: apyMaterialProject,
+        code: "",
+        link: "https://www.gtuapymaterials.com",
       },
       {
-        title: "Creative Website",
-        image: project3,
+        title: "indi Water",
+        para: "...",
+        image: indiWaterProject,
+        code: "",
+        link: "https://indiwater3.web.app/",
+      },
+      {
+        title: "Scientific Calculator",
+        para: "...",
+        image: scientificCalculatorProject,
+        code: "",
+        link: "https://princesimform.github.io/scientific-calculator/",
+      },
+      {
+        title: "Expense Tracker",
+        para: "No need to remember the expenses. Use Split Bill to keep track of your bills and share your expenses with your friends.",
+        image: expenseTrackerProject,
+        code: "",
+        link: "https://expense-tracker-910c0.web.app/",
       },
     ],
   },
@@ -190,24 +276,60 @@ export const content = {
     para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
     btnText: "Hire Me",
   },
+  Experience: {
+    title: "Experience",
+    subtitle: "Contribution to World",
+    experience_content: [
+      {
+        role: "SDE",
+        company: "Simform Solutions",
+        date: "Jan 2023 - Present",
+        para: "React SDE Trainee developer with a passion for building dynamic and responsive user interfaces using React.js At Simform ",
+      },
+      {
+        role: "Web Development Intern",
+        company: "Beta Tester",
+        date: "Fab - May 2022",
+        para: "Working On React Js Based Project make Frontend of the Project",
+      },
+
+      {
+        role: "Codechef Chapter Leader",
+        company: "Codechef",
+        date: "2020 - 21",
+        para: "Competitive Programming Leader for 1 year at Codechef GEC-Rajkot Chapter for 2020-21 Batch.",
+      },
+      {
+        role: "Frontend Experience",
+        company: "",
+        date: "",
+        para: "VueJs, React",
+      },
+    ],
+  },
   Contact: {
     title: "Contect Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "princemakavana61@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:princemakavana61@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+91 95108 25809",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/9510825809",
       },
       {
-        text: "codeaprogram",
+        text: "i_am_prince_1602",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/i_am_prince_1602/",
+      },
+      {
+        text: "PrinceMakavana",
+        icon: AiFillGithub,
+        link: "https://github.com/PrinceMakavana/",
       },
     ],
   },

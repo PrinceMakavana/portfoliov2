@@ -4,12 +4,12 @@ import Skills from "./components/Skills";
 import Service from "./components/Services";
 import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
-import Hireme from "./components/Hireme";
 import Contact from "./components/Contact";
 import Navbar from "./Layouts/Navbar";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Experience from "./components/Experience";
 const App = () => {
   useEffect(() => {
     Aos.init({
@@ -18,18 +18,18 @@ const App = () => {
     });
   }, []);
   return (
-    <div className="">
+    <div className=''>
       <Navbar />
       <Hero />
       <Skills />
       <Service />
       <Projects />
+      <Experience />
       <Testimonials />
-      <Hireme />
       <Contact />
-      <footer className="p-3 text-center">
-        <h6 className="mb-3">JOHN ALEX</h6>
-        <p>codeaprogram © All CopyRights Reserved 2022</p>
+      <footer className='p-3 text-center'>
+        <h6 className='mb-3'>Prince Makavana</h6>
+        <p>princemakavana © All CopyRights Reserved 2023</p>
       </footer>
     </div>
   );

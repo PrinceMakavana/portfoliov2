@@ -1,9 +1,10 @@
 import { content } from "../Content";
+import Resume from "./../assets/Prince_Resume.pdf" 
 const Hero = () => {
   const { hero } = content;
   return (
-    <section>
-      <div className="min-h-screen relative flex md:flex-row flex-col md:items-end justify-center items-center bg-primaryLinear">
+    <section id="home">
+      <div className='min-h-screen relative flex md:flex-row flex-col md:items-center	 justify-center items-center bg-primaryLinear '>
         {/* <div
           data-aos="slide-right"
           data-aos-delay="1200"
@@ -14,29 +15,31 @@ const Hero = () => {
             <span className="text-dark_primary "> {hero.LastName}</span>
           </h1>
         </div> */}
-         <div className="md:h-[43rem] h-[15rem]">
+        <div className='md:h-[32rem] h-[15rem]'>
           <img
-            data-aos="slide-up"
+            data-aos='slide-up'
             src={hero.image}
-            alt="Profile"
-            className="h-full object-cover"
+            alt='Profile'
+            className='h-full object-cover rounded-full'
           />
         </div>
-        <div data-aos="fade-down" className="pb-16 pl-6 pt-5">
-          <h1 className=" text-[#EAF2FA]">
+        <div data-aos='fade-down' className='pb-16 pl-6 pt-5'>
+          <h1 className=' text-[#EAF2FA]'>
             {hero.firstName}{" "}
-            <span className="text-dark_primary "> {hero.LastName}</span>
+            <span className='text-dark_primary '> {hero.LastName}</span>
           </h1>
-          <h2 className="title">{hero.title}</h2>
+          <h2 className='title'>{hero.title}</h2>
           <br />
-          <div className="flex justify-start ">
-            <a target="_blank" href="#" className="btn cursor-pointer">{hero.btnText}</a>
+          <div className='flex justify-start '>
+            <a target='_blank' href={Resume} className='btn cursor-pointer'>
+              {hero.btnText}
+            </a>
           </div>
-          <div className="flex flex-col gap-10 mt-10">
+          <div className='flex flex-col gap-10 mt-10'>
             {hero.hero_content.map((content, i) => (
               <div
                 key={i}
-                data-aos="fade-down"
+                data-aos='fade-down'
                 data-aos-delay={i * 3}
                 className={`flex item-center w-80 gap-5  ${
                   i === 1 && "flex-row-reverse text-right"
@@ -48,7 +51,6 @@ const Hero = () => {
             ))}
           </div>
         </div>
-       
       </div>
     </section>
   );

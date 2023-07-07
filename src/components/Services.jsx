@@ -2,7 +2,7 @@ import { content } from "../Content";
 const Services = () => {
   const { services } = content;
   return (
-    <section>
+    <section id="services">
       <div className="md:container px-5 py-14">
         <h2 data-aos="fade-down" className="title">
           {services.title}

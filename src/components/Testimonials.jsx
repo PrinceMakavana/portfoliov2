@@ -23,17 +23,21 @@ const Testimonials = () => {
             setActiveIndex(e.realIndex);
           }}
           modules={[Pagination]}
-          className='md:h-96 h-[40rem] max-w-3xl'
+          className='md:h-80 h-[30rem] max-w-3xl'
         >
           {Testimonials.testimonials_content.map((content, i) => (
             <SwiperSlide
               key={i}
-              className={`duration-500 bg-bg_light_primary mx-8 border-2 p-8 h-full rounded-2xl flex items-center gap-6 border-slate-200 md:flex-row flex-col w-auto ${activeIndex !==  i && 'scale-75 blur-sm'}`}
+              className={`duration-500 bg-bg_light_primary mx-8 border-2  h-full rounded-2xl flex items-center md:m-auto md:text-center  border-slate-200 md:flex-row flex-col w-auto ${
+                activeIndex !== i && "scale-75 blur-sm"
+              }`}
             >
+              <div className='mx-5 py-5'>
+                <img src={content.img} className='h-24 md:w-28 w-24' alt='' />
+              </div>
               <div>
-                <img src={content.img} className='h-24' alt='' />
-                <div className='sm:text-base text-sm'>
-                  <p>{content.review}</p>
+                <div className='sm:text-base text-sm  text-center md:text-left'> 
+                  <p className=''>{content.review}</p>
                   <br />
                   <h6>{content.name}</h6>
                 </div>
