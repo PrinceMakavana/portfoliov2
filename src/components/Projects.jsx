@@ -31,7 +31,6 @@ const Projects = () => {
             modules={[Pagination]}
             className='rounded-3xl pb-16  self-start'
             spaceBetween={20}
-            data-aos='fade-left'
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide key={i} className=''>
