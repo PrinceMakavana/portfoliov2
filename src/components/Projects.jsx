@@ -31,7 +31,7 @@ const Projects = () => {
             direction="horizontal"
             spaceBetween={20}
             modules={[Pagination]}
-            className='rounded-3xl  pb-12 text-white self-start'
+            className='rounded-3xl  pb-12  self-start'
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide key={i} className=''>
