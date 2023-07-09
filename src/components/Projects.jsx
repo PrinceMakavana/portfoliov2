@@ -28,9 +28,10 @@ const Projects = () => {
           <Swiper
             pagination={{ clickable: true }}
             slidesPerView={slidesPerView}
-            modules={[Pagination]}
-            className='rounded-3xl pb-16  self-start'
+            direction="horizontal"
             spaceBetween={20}
+            modules={[Pagination]}
+            className='rounded-3xl  pb-12 text-white self-start'
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide key={i} className=''>
