@@ -27,16 +27,16 @@ import indiWaterProject from "./assets/images/Projects/indiwater.png";
 import expenseTrackerProject from "./assets/images/Projects/expenseTracker.png";
 import scientificCalculatorProject from "./assets/images/Projects/scientific_calculator.png";
 
-import project3 from "./assets/images/Projects/img3.png";
-import person_project from "./assets/images/Projects/person.png";
+// import project3 from "./assets/images/Projects/img3.png";
+// import person_project from "./assets/images/Projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/review1.jpeg";
-import avatar2 from "./assets/images/Testimonials/avatar2.png";
-import avatar3 from "./assets/images/Testimonials/avatar3.png";
-import avatar4 from "./assets/images/Testimonials/avatar4.png";
+// import avatar2 from "./assets/images/Testimonials/avatar2.png";
+// import avatar3 from "./assets/images/Testimonials/avatar3.png";
+// import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
+// import Hireme_person from "./assets/images/Hireme/person.png";
+// import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -199,7 +199,7 @@ export const content = {
   Projects: {
     title: "Projects",
     subtitle: "MY CREATION",
-    image: person_project,
+    // image: person_project,
     project_content: [
       {
         title: "Codechef Chapter",
@@ -262,14 +262,14 @@ export const content = {
       },
     ],
   },
-  Hireme: {
-    title: "Hire Me",
-    subtitle: "FOR YOUR PROJECTS",
-    image1: Hireme_person,
-    image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-    btnText: "Hire Me",
-  },
+  // Hireme: {
+  //   title: "Hire Me",
+  //   subtitle: "FOR YOUR PROJECTS",
+  //   image1: Hireme_person,
+  //   image2: Hireme_person2,
+  //   para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+  //   btnText: "Hire Me",
+  // },
   Experience: {
     title: "Experience",
     subtitle: "Contribution to World",
