@@ -1,1 +1,1 @@
-# [Prince Makavana](https://princemakavana6102.web.app/)
+# [Prince Makavana](https://princemakavana.com/)
