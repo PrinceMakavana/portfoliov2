@@ -18,6 +18,7 @@ import githubLogo from "./assets/images/Skills/github.png";
 import awsLogo from "./assets/images/Skills/aws.png";
 import tiptapLogo from "./assets/images/Skills/tiptap.png";
 import vueJsLogo from "./assets/images/Skills/vuejs.png";
+import gcpLogo from "./assets/images/Skills/gcp.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -184,6 +185,12 @@ export const content = {
         para: "1 Year",
         logo: awsLogo,
       },
+    {
+        name: "Google Cloud Platform",
+        para: "+10 badge",
+        logo: gcpLogo,
+      },
+
     ],
     icon: MdArrowForward,
   },
