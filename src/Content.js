@@ -16,6 +16,8 @@ import firebaseLogo from "./assets/images/Skills/firebase.png";
 import MongodbLogo from "./assets/images/Skills/mongodb.png";
 import githubLogo from "./assets/images/Skills/github.png";
 import awsLogo from "./assets/images/Skills/aws.png";
+import tiptapLogo from "./assets/images/Skills/tiptap.png";
+import vueJsLogo from "./assets/images/Skills/vuejs.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -99,77 +101,87 @@ export const content = {
     skills_content: [
       {
         name: "C/C++",
-        para: "Lorem ipsum text  dummy",
+        para: "1 year",
         logo: cPlus,
       },
       {
         name: "HTML",
-        para: "Lorem ipsum text  dummy",
+        para: "+5 Year",
         logo: htmlLogo,
       },
       {
         name: "CSS",
-        para: "Lorem ipsum text  dummy",
+        para: "+5 Year",
         logo: cssLogo,
       },
       {
         name: "SASS",
-        para: "Lorem ipsum text  dummy",
+        para: "+3 Year",
         logo: sassLogo,
       },
       {
         name: "Bootstrap",
-        para: "Lorem ipsum text  dummy",
+        para: "+3 Year",
         logo: bootstrapLogo,
       },
       {
         name: "Tailwind",
-        para: "Lorem ipsum text  dummy",
+        para: "+3 Year",
         logo: tailwindLogo,
       },
       {
         name: "JavaScript",
-        para: "Lorem ipsum text  dummy",
+        para: "+4 Year",
         logo: javaScript,
       },
       {
         name: "TypeScript",
-        para: "Lorem ipsum text  dummy",
+        para: "+3 Year",
         logo: typescriptLogo,
       },
       {
+        name: "Vue Js",
+        para: "+3 Year",
+        logo: vueJsLogo,
+      },
+       {
+        name: "Tiptap",
+        para: "+2 Year",
+        logo: tiptapLogo,
+      },
+      {
         name: "React Js",
-        para: "Lorem ipsum text  dummy",
+        para: "+3 Year",
         logo: reactjs,
       },
       {
         name: "Redux",
-        para: "Lorem ipsum text  dummy",
+        para: "+3 Year",
         logo: reduxLogo,
       },
       {
         name: "Mateiral Ui",
-        para: "Lorem ipsum text  dummy",
+        para: "+4 Year",
         logo: muiLogo,
       },
       {
         name: "Firebase",
-        para: "Lorem ipsum text  dummy",
+        para: "+4 Year",
         logo: firebaseLogo,
       },
       {
         name: "MongoDB",
-        para: "Lorem ipsum text  dummy",
+        para: "+1 Year",
         logo: MongodbLogo,
       },
       {
         name: "Github",
-        para: "Lorem ipsum text  dummy",
+        para: "+5 Year",
         logo: githubLogo,
       },
       {
         name: "AWS",
-        para: "Lorem ipsum text  dummy",
+        para: "1 Year",
         logo: awsLogo,
       },
     ],
