@@ -34,6 +34,7 @@ import scientificCalculatorProject from "./assets/images/Projects/scientific_cal
 // import person_project from "./assets/images/Projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/review1.jpeg";
+import reviewAvater2 from "./assets/images/reviewAvater2.jpeg";
 // import avatar2 from "./assets/images/Testimonials/avatar2.png";
 // import avatar3 from "./assets/images/Testimonials/avatar3.png";
 // import avatar4 from "./assets/images/Testimonials/avatar4.png";
@@ -269,15 +270,21 @@ export const content = {
       },
       {
         review:
-          "“Prince is very clever and honest about their task and his technical skills are great. He always does his assigned work with full of responsible and ethical way.”",
-        img: avatar1,
-        name: "Harshil Kaneria",
+          "“Prince is an exceptional developer who has skillfully utilized Laravel, Alpine.js, Livewire, and Node.js on the Kheops project. He excelled in developing robust backend and interactive frontend, contributing to a solid architecture and enhanced user experience. Prince is also an effective communicator and a valuable collaborator, always ready to share his expertise and tackle problems proactively. His ongoing commitment to learning and innovation makes him a major asset to any project or company. I highly recommend him for his professionalism and dedication.”",
+        img: reviewAvater2,
+        name: "Mohamed Ali Akram Zerark",
       },
       {
         review:
           "“Prince is very clever and honest about their task and his technical skills are great. He always does his assigned work with full of responsible and ethical way.”",
         img: avatar1,
         name: "Harshil Kaneria",
+      },
+      {
+        review:
+          "“Prince is an exceptional developer who has skillfully utilized Laravel, Alpine.js, Livewire, and Node.js on the Kheops project. He excelled in developing robust backend and interactive frontend, contributing to a solid architecture and enhanced user experience. Prince is also an effective communicator and a valuable collaborator, always ready to share his expertise and tackle problems proactively. His ongoing commitment to learning and innovation makes him a major asset to any project or company. I highly recommend him for his professionalism and dedication.”",
+        img: reviewAvater2,
+        name: "Mohamed Ali Akram Zerark",
       },
     ],
   },
