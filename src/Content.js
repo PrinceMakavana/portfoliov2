@@ -335,12 +335,7 @@ export const content = {
         text: "princemakavana61@gmail.com",
         icon: GrMail,
         link: "mailto:princemakavana61@gmail.com",
-      },
-      {
-        text: "+91 95108 25809",
-        icon: MdCall,
-        link: "https://wa.me/9510825809",
-      },
+      },  
       {
         text: "i_am_prince_1602",
         icon: BsInstagram,
