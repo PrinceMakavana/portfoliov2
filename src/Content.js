@@ -296,29 +296,28 @@ export const content = {
     subtitle: "Contribution to World",
     experience_content: [
       {
+        role: "Frontend Developer",
+        company: "The Devtime Technologies",
+        date: "Aug 2023 - Present",
+        para: "I worked here with Expertise in React.js/Vue.js/Tiptap. Consistently delivered on-time, high-quality work, achieving 100% Job Score with Top Rated Plus Employee. ",
+      },
+      {
         role: "SDE",
         company: "Simform Solutions",
-        date: "Jan 2023 - Present",
+        date: "Jan 2023 - July 2023",
         para: "React SDE Trainee developer with a passion for building dynamic and responsive user interfaces using React.js At Simform ",
       },
       {
-        role: "Web Development Intern",
+        role: "React Developer | Summer Internship",
         company: "Beta Tester",
         date: "Fab - May 2022",
         para: "Working On React Js Based Project make Frontend of the Project",
       },
-
       {
         role: "Codechef Chapter Leader",
         company: "Codechef",
         date: "2020 - 21",
         para: "Competitive Programming Leader for 1 year at Codechef GEC-Rajkot Chapter for 2020-21 Batch.",
-      },
-      {
-        role: "Frontend Experience",
-        company: "",
-        date: "",
-        para: "VueJs, React",
       },
     ],
   },
