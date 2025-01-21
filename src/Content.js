@@ -35,6 +35,7 @@ import scientificCalculatorProject from "./assets/images/Projects/scientific_cal
 
 import avatar1 from "./assets/images/Testimonials/review1.jpeg";
 import reviewAvater2 from "./assets/images/reviewAvater2.jpeg";
+import reviewAvater3 from "./assets/images/Testimonials/reviewAvater3.jpg";
 // import avatar2 from "./assets/images/Testimonials/avatar2.png";
 // import avatar3 from "./assets/images/Testimonials/avatar3.png";
 // import avatar4 from "./assets/images/Testimonials/avatar4.png";
@@ -259,8 +260,8 @@ export const content = {
     ],
   },
   Testimonials: {
-    title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
+    title: "Recommendations",
+    subtitle: "MY REVIEWS",
     testimonials_content: [
       {
         review:
@@ -276,15 +277,9 @@ export const content = {
       },
       {
         review:
-          "“Prince is very clever and honest about their task and his technical skills are great. He always does his assigned work with full of responsible and ethical way.”",
-        img: avatar1,
-        name: "Harshil Kaneria",
-      },
-      {
-        review:
-          "“Prince is an exceptional developer who has skillfully utilized Laravel, Alpine.js, Livewire, and Node.js on the Kheops project. He excelled in developing robust backend and interactive frontend, contributing to a solid architecture and enhanced user experience. Prince is also an effective communicator and a valuable collaborator, always ready to share his expertise and tackle problems proactively. His ongoing commitment to learning and innovation makes him a major asset to any project or company. I highly recommend him for his professionalism and dedication.”",
-        img: reviewAvater2,
-        name: "Mohamed Ali Akram Zerark",
+          "“We hired Prince to develop a tiptap/ProseMirror content AI extension in JavaScript with an Express.js backend. He delivered high-quality work on time and maintained excellent communication throughout the project. Would happily work with him again.”",
+        img: reviewAvater3,
+        name: "Sacha Fournier",
       },
     ],
   },
