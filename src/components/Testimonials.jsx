@@ -33,7 +33,7 @@ const Testimonials = () => {
               }`}
             >
               <div className='mx-5 py-5'>
-                <img src={content.img} className='h-20 md:w-32 w-24 rounded-full' alt='' />
+                <img src={content.img} className='h-auto md:w-32 w-24 rounded-full min-w-[60px]' alt='' />
               </div>
               <div>
                 <div className='sm:text-base text-sm  text-center md:text-left'> 
