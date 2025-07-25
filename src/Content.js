@@ -19,6 +19,9 @@ import awsLogo from "./assets/images/Skills/aws.png";
 import tiptapLogo from "./assets/images/Skills/tiptap.png";
 import vueJsLogo from "./assets/images/Skills/vuejs.png";
 import gcpLogo from "./assets/images/Skills/gcp.png";
+import langchainLogo from "./assets/images/Skills/langchain.png";
+import pineconeLogo from "./assets/images/Skills/pinecone.png";
+import nextjsLogo from "./assets/images/Skills/nextjs.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -143,19 +146,24 @@ export const content = {
         logo: typescriptLogo,
       },
       {
+       name: "Tiptap",
+       para: "+2 Year",
+       logo: tiptapLogo,
+     },
+      {
         name: "Vue Js",
         para: "+3 Year",
         logo: vueJsLogo,
-      },
-       {
-        name: "Tiptap",
-        para: "+2 Year",
-        logo: tiptapLogo,
       },
       {
         name: "React Js",
         para: "+3 Year",
         logo: reactjs,
+      },
+      {
+        name: "Next Js",
+        para: "+2 Year",
+        logo: nextjsLogo,
       },
       {
         name: "Redux",
@@ -172,6 +180,17 @@ export const content = {
         para: "+4 Year",
         logo: firebaseLogo,
       },
+      {
+        name: "LangChain with RAG",
+        para: "beginner",
+        logo: langchainLogo,
+      },
+      {
+        name: "PineCone",
+        para: "beginner",
+        logo: pineconeLogo,
+      },
+      
       {
         name: "MongoDB",
         para: "+1 Year",
