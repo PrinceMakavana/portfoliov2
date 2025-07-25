@@ -29,6 +29,7 @@ import services_logo3 from "./assets/images/Services/logo3.png";
 
 import codechefProject from "./assets/images/Projects/codechef.png";
 import apyMaterialProject from "./assets/images/Projects/apyMaterial.png";
+import GeminiAiVertexdemoProject from "./assets/images/Projects/gemini-ai-vertex-demo.png";
 import indiWaterProject from "./assets/images/Projects/indiwater.png";
 import expenseTrackerProject from "./assets/images/Projects/expenseTracker.png";
 import scientificCalculatorProject from "./assets/images/Projects/scientific_calculator.png";
@@ -50,6 +51,7 @@ import reviewAvater3 from "./assets/images/Testimonials/reviewAvater3.jpg";
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import { TbArrowSharpTurnLeft, TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
@@ -242,18 +244,25 @@ export const content = {
     // image: person_project,
     project_content: [
       {
-        title: "Codechef Chapter",
-        para: "This is the Web-Site for Codechef GEC-Rajkot Chapter has been made by me.",
-        image: codechefProject,
-        code: "",
-        link: "https://codechef-gec-rajkot-chapter.github.io/main/",
-      },
-      {
         title: "Apy Material",
         para: "Here we are adding all books related to GTU Computer Engineering and this is famous and High Ranked on Google. (+1M impression on Google Search)",
         image: apyMaterialProject,
         code: "",
         link: "https://www.gtuapymaterials.com",
+      },
+      {
+        title: "AI-Powered Document Analysis App",
+        para: "This modern application enables interactive conversations with PDF documents using cutting-edge AI capabilities. It's built with Next.js 15, integrated with Gemini AI, OpenAI, and Pinecone, offering intelligent and context-aware document understanding through conversational interfaces.",
+        image: GeminiAiVertexdemoProject,
+        code: "",
+        link: "https://gemini-ai-vertex-demo.vercel.app/",
+      },
+      {
+        title: "Codechef Chapter",
+        para: "This is the Web-Site for Codechef GEC-Rajkot Chapter has been made by me.",
+        image: codechefProject,
+        code: "",
+        link: "https://codechef-gec-rajkot-chapter.github.io/main/",
       },
       {
         title: "indi Water",
@@ -314,10 +323,16 @@ export const content = {
     title: "Experience",
     subtitle: "Contribution to World",
     experience_content: [
+        {
+        role: "Senior Frontend Engineer",
+        company: "Intuz",
+        date: "Fab 2025 - Present",
+        para: "Working On React Js Based Project make Frontend of the Project",
+      },
       {
         role: "Frontend Developer",
         company: "The Devtime Technologies",
-        date: "Aug 2023 - Present",
+        date: "Aug 2023 - Jan 2025",
         para: "I worked here with Expertise in React.js/Vue.js/Tiptap. Consistently delivered on-time, high-quality work, achieving 100% Job Score with Top Rated Plus Employee. ",
       },
       {
@@ -325,12 +340,6 @@ export const content = {
         company: "Simform Solutions",
         date: "Jan 2023 - July 2023",
         para: "React SDE Trainee developer with a passion for building dynamic and responsive user interfaces using React.js At Simform ",
-      },
-      {
-        role: "React Developer | Summer Internship",
-        company: "Beta Tester",
-        date: "Fab - May 2022",
-        para: "Working On React Js Based Project make Frontend of the Project",
       },
       {
         role: "Codechef Chapter Leader",
@@ -345,14 +354,9 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "princemakavana61@gmail.com",
-        icon: GrMail,
-        link: "mailto:princemakavana61@gmail.com",
-      },  
-      {
-        text: "i_am_prince_1602",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/i_am_prince_1602/",
+        text: "princemakavana61",
+        icon: BsLinkedin,
+        link: "https://www.linkedin.com/in/princemakavana61/",
       },
       {
         text: "PrinceMakavana",
@@ -362,6 +366,6 @@ export const content = {
     ],
   },
   Footer: {
-    text: "All © Copy Right Reserved 2022",
+    text: "All © Copy Right Reserved 2025",
   },
 };
