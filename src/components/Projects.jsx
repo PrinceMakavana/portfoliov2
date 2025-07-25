@@ -46,7 +46,7 @@ const Projects = () => {
                     <div class='font-bold text-xl mb-2 title'>
                       {content.title}
                     </div>
-                    <p class='text-gray-700 text-base h-[10rem] '>{content.para}</p>
+                    <p class='text-gray-700 text-base h-[10rem] project-content-height-fix'>{content.para}</p>
                   </div>
                   <div class='px-6 pt-4 pb-2'>
                     {content.code.length != 0 && (

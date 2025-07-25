@@ -29,7 +29,7 @@ const App = () => {
       <Contact />
       <footer className='p-3 text-center'>
         <h6 className='mb-3'>Prince Makavana</h6>
-        <p>princemakavana © All CopyRights Reserved 2023</p>
+        <p>princemakavana © All CopyRights Reserved 2025</p>
       </footer>
     </div>
   );
