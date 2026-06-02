@@ -2,7 +2,7 @@ import { content } from "../Content";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination } from "swiper";
+import { Pagination } from "swiper/modules";
 const Testimonials = () => {
   const { Testimonials } = content;
 

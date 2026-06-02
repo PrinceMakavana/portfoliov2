@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { content } from "../Content";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
+import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 const Projects = () => {
