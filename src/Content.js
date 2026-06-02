@@ -33,7 +33,7 @@ import GeminiAiVertexdemoProject from "./assets/images/Projects/gemini-ai-vertex
 import indiWaterProject from "./assets/images/Projects/indiwater.png";
 import expenseTrackerProject from "./assets/images/Projects/expenseTracker.png";
 import scientificCalculatorProject from "./assets/images/Projects/scientific_calculator.png";
-
+import QASupportBotProject from "./assets/images/Projects/qa_support_bot_by_prince_makavana.webm";
 // import project3 from "./assets/images/Projects/img3.png";
 // import person_project from "./assets/images/Projects/person.png";
 
@@ -94,8 +94,8 @@ export const content = {
     image: Hero_person,
     hero_content: [
       {
-        count: "3+",
-        text: "Years of Experinse in Web development",
+        count: `${ Math.floor((Date.now() - new Date("2022-01-01")) / (1000 * 60 * 60 * 24 * 365)) }+`,
+        text: "Years of Experience in Web development",
       },
       {
         count: "10+",
@@ -243,12 +243,22 @@ export const content = {
     subtitle: "MY CREATION",
     // image: person_project,
     project_content: [
+      
+      {
+        title: "QA Support Bot",
+        para: "A support chatbot built with **Retrieval Augmented Generation (RAG)**. Crawl a website, ingest its content into a vector store, then ask questions and get answers grounded in that knowledge.",
+        image: QASupportBotProject,
+        code: "",
+        link: "https://qa-support-bot.princemakavana.com",
+        ContentType: "video"
+      },
       {
         title: "Apy Material",
         para: "Here we are adding all books related to GTU Computer Engineering and this is famous and High Ranked on Google. (+1M impression on Google Search)",
         image: apyMaterialProject,
         code: "",
         link: "https://www.gtuapymaterials.com",
+        ContentType: "image"
       },
       {
         title: "AI-Powered Document Analysis App",
@@ -256,6 +266,7 @@ export const content = {
         image: GeminiAiVertexdemoProject,
         code: "",
         link: "https://gemini-ai-vertex-demo.vercel.app/",
+        ContentType: "image"
       },
       {
         title: "Codechef Chapter",
@@ -263,6 +274,7 @@ export const content = {
         image: codechefProject,
         code: "",
         link: "https://codechef-gec-rajkot-chapter.github.io/main/",
+        ContentType: "image"
       },
       {
         title: "indi Water",
@@ -270,6 +282,7 @@ export const content = {
         image: indiWaterProject,
         code: "",
         link: "https://indiwater3.web.app/",
+        ContentType: "image"
       },
       {
         title: "Scientific Calculator",
@@ -277,6 +290,7 @@ export const content = {
         image: scientificCalculatorProject,
         code: "",
         link: "https://princesimform.github.io/scientific-calculator/",
+        ContentType: "image"
       },
       {
         title: "Expense Tracker",
@@ -284,6 +298,7 @@ export const content = {
         image: expenseTrackerProject,
         code: "",
         link: "https://expense-tracker-910c0.web.app/",
+        ContentType: "image",
       },
     ],
   },
@@ -323,16 +338,16 @@ export const content = {
     title: "Experience",
     subtitle: "Contribution to World",
     experience_content: [
-        {
-        role: "Senior Frontend Engineer",
-        company: "Intuz",
-        date: "Fab 2025 - Present",
-        para: "Working On React Js Based Project make Frontend of the Project",
-      },
+      //   {
+      //   role: "Senior Frontend Engineer",
+      //   company: "Intuz",
+      //   date: "Fab 2025 - Present",
+      //   para: "Working On React Js Based Project make Frontend of the Project",
+      // },
       {
         role: "Frontend Developer",
         company: "The Devtime Technologies",
-        date: "Aug 2023 - Jan 2025",
+        date: "Aug 2023 - Present",
         para: "I worked here with Expertise in React.js/Vue.js/Tiptap. Consistently delivered on-time, high-quality work, achieving 100% Job Score with Top Rated Plus Employee. ",
       },
       {

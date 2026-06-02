@@ -18,18 +18,18 @@ const App = () => {
     });
   }, []);
   return (
-    <div className=''>
+    <div className='overflow-hidden'>
       <Navbar />
       <Hero />
       <Skills />
-{/*       <Service /> */}
+      <Service />
       <Projects />
       <Experience />
       <Testimonials />
       <Contact />
       <footer className='p-3 text-center'>
         <h6 className='mb-3'>Prince Makavana</h6>
-        <p>princemakavana © All CopyRights Reserved 2025</p>
+        <p>princemakavana © All CopyRights Reserved {new Date().getFullYear()}</p>
       </footer>
     </div>
   );

@@ -1,3 +1,4 @@
+import React, { useEffect, useRef } from "react";
 import { content } from "../Content";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
@@ -6,6 +7,17 @@ import "swiper/css/pagination";
 const Projects = () => {
   const { Projects } = content;
   const slidesPerView = window.innerWidth < 768 ? 1 : 3;
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (video) {
+      video.play();
+       video.addEventListener("loadedmetadata", function() {
+            video.playbackRate = 1.25;
+        });
+    }
+  }, []);
   return (
     <section className='bg-dark_primary ' id="projects">
       <div className='md:container px-5 pt-14 min-h-screen flex flex-col '>
@@ -31,42 +43,49 @@ const Projects = () => {
             direction="horizontal"
             spaceBetween={20}
             modules={[Pagination]}
-            className='rounded-3xl  pb-12  self-start'
+            className='projects-swiper rounded-3xl pb-12 self-start'
           >
             {Projects.project_content.map((content, i) => (
-              <SwiperSlide key={i} className=''>
-                <div class='max-w-sm m-auto  overflow-hidden shadow-sm bg-bg_light_primary pb-3 rounded-md'>
-                  <img
-                    class='w-full'
-                    src={content.image}
-                    alt='Mountain'
-                    className='hover:scale-110  h-[10rem] transition-all duration-500 m-auto'
-                  />
-                  <div class='px-6 py-4'>
-                    <div class='font-bold text-xl mb-2 title'>
+              <SwiperSlide key={i} className='h-auto'>
+                <div className='max-w-sm h-full m-auto overflow-hidden shadow-sm bg-bg_light_primary rounded-md flex flex-col'>
+                  <div className='aspect-[16/9] w-full overflow-hidden bg-dark_primary'>
+                    {content.ContentType === "image" ? (
+                      <img
+                        src={content.image}
+                        alt={content.title}
+                        className='w-full h-full object-cover hover:scale-110 transition-all duration-500'
+                      />
+                    ) : content.ContentType === "video" ? (
+                      <video
+                        aria-label={content.title}
+                        autoPlay={true}
+                        loop
+                        muted
+                        playsInline
+                        className='w-full h-full object-cover hover:scale-110 transition-all duration-500'
+                        ref={videoRef}
+                      >
+                        <source src={content.image} type="video/mp4" />
+                      </video>
+                    ) : null}
+                  </div>
+                  <div className='px-6 py-4 flex-1 flex flex-col'>
+                    <div className='font-bold text-xl mb-2 title min-h-[4.5rem]'>
                       {content.title}
                     </div>
-                    <p class='text-gray-700 text-base h-[10rem] project-content-height-fix'>{content.para}</p>
+                    <p className='text-gray-700 text-base h-[10rem] project-content-height-fix'>{content.para}</p>
                   </div>
-                  <div class='px-6 pt-4 pb-2'>
-                    {content.code.length != 0 && (
+                  <div className='px-6 pt-4 pb-5 mt-auto'>
+                    {content.code.length !== 0 && (
                       <a href={content.code} className='btn mr-2'>
                         Code
                       </a>
                     )}
-                    <a target="_blank" href={content.link} className='btn'>
+                    <a target="_blank" rel="noreferrer" href={content.link} className='btn'>
                       Live
                     </a>
                   </div>
                 </div>
-
-                {/* <img src={content.image} alt='...' className='m-auto' />
-                <div className='flex flex-col gap-1 mt-2 '>
-                  <h5 className='font-bold font-Poppins'>{content.title}</h5>
-                  <button className='font-bold text-gray self-end'>
-                    READ MORE{" "}
-                  </button>
-                </div> */}
               </SwiperSlide>
             ))}
           </Swiper>

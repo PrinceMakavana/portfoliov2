@@ -1,0 +1,44 @@
+# Prince Makavana
+
+> Personal portfolio website for Prince Makavana, a frontend-focused web developer.
+
+## Site
+
+- Canonical URL: https://princemakavana.com/
+- Type: Single-page portfolio
+- Owner: Prince Makavana
+
+## Summary
+
+Prince Makavana is a web developer with experience building frontend and full-stack web applications using React, Vue, Next.js, JavaScript, TypeScript, Tailwind CSS, Firebase, MongoDB, LangChain, Pinecone, AWS, and Google Cloud Platform.
+
+The website highlights:
+
+- Skills and technology stack
+- Selected projects
+- Professional experience
+- Testimonials and recommendations
+- Contact links
+
+## Key Sections
+
+- Home: https://princemakavana.com/#home
+- Skills: https://princemakavana.com/#skills
+- Projects: https://princemakavana.com/#projects
+- Experience: https://princemakavana.com/#experience
+- Contact: https://princemakavana.com/#contact
+
+## Selected Projects
+
+- QA Support Bot: https://qa-support-bot.princemakavana.com
+- Apy Material: https://www.gtuapymaterials.com
+- AI-Powered Document Analysis App: https://gemini-ai-vertex-demo.vercel.app/
+- Codechef Chapter: https://codechef-gec-rajkot-chapter.github.io/main/
+- indi Water: https://indiwater3.web.app/
+- Scientific Calculator: https://princesimform.github.io/scientific-calculator/
+- Expense Tracker: https://expense-tracker-910c0.web.app/
+
+## Contact
+
+- LinkedIn: https://www.linkedin.com/in/princemakavana61/
+- GitHub: https://github.com/PrinceMakavana/

@@ -68,6 +68,22 @@
   @apply w-3 h-3 bg-dark_primary;
 }
 
+.projects-swiper .swiper-wrapper {
+  align-items: stretch;
+}
+
+.projects-swiper .swiper-slide {
+  height: auto;
+}
+
+.testimonials-swiper .swiper-wrapper {
+  align-items: stretch;
+}
+
+.testimonials-swiper .swiper-slide {
+  height: auto;
+}
+
 .project-content-height-fix {
   display: -webkit-box;
   -webkit-line-clamp: 5;
@@ -75,4 +91,26 @@
   overflow: hidden;
   text-overflow: ellipsis;
   max-height: 125px;
+}
+
+
+
+/* Text ellipse for 2 line  */
+.ellipse-2 {
+  text-wrap: wrap;
+  line-height: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2; /* Limits text to 2 lines */
+  text-overflow: ellipsis;
+}
+.ellipse-3 {
+  text-wrap: wrap;
+  line-height: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3; /* Limits text to 3 lines */
+  text-overflow: ellipsis;
 }
