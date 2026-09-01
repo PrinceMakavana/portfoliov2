@@ -1,5 +1,7 @@
+import { createElement } from "react";
 import { content } from "../Content";
-import Resume from "./../assets/Prince_Resume.pdf" 
+import Resume from "./../assets/Prince_Resume.pdf";
+
 const Hero = () => {
   const { hero } = content;
   return (
@@ -30,10 +32,24 @@ const Hero = () => {
           </h1>
           <h2 className='title'>{hero.title}</h2>
           <br />
-          <div className='flex justify-start '>
+          <div className='flex items-center gap-3 justify-start'>
             <a target='_blank' href={Resume} className='btn cursor-pointer'>
               {hero.btnText}
             </a>
+            {hero.social_links.map((social, i) => (
+              <a
+                key={i}
+                href={social.link}
+                target={social.link.startsWith("mailto:") ? "_self" : "_blank"}
+                rel='noopener noreferrer'
+                aria-label={social.label}
+                className='flex items-center justify-center w-10 h-10 border-2 border-dark_primary rounded-md rounded-br-3xl bg-[#EAF2FA]/50 hover:bg-[#EAF2FA] transition-colors'
+              >
+                {createElement(social.icon, {
+                  className: "text-xl text-dark_primary",
+                })}
+              </a>
+            ))}
           </div>
           <div className='flex flex-col gap-10 mt-10'>
             {hero.hero_content.map((content, i) => (

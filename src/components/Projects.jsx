@@ -63,9 +63,16 @@ const Projects = () => {
                         muted
                         playsInline
                         className='w-full h-full object-cover hover:scale-110 transition-all duration-500'
-                        ref={videoRef}
+                        ref={i === 0 ? videoRef : undefined}
                       >
-                        <source src={content.image} type="video/mp4" />
+                        <source
+                          src={content.image}
+                          type={
+                            String(content.image).includes(".webm")
+                              ? "video/webm"
+                              : "video/mp4"
+                          }
+                        />
                       </video>
                     ) : null}
                   </div>

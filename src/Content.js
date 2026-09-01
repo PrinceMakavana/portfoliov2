@@ -29,6 +29,7 @@ import services_logo3 from "./assets/images/Services/logo3.png";
 
 import codechefProject from "./assets/images/Projects/codechef.png";
 import apyMaterialProject from "./assets/images/Projects/apyMaterial.png";
+import paperAiApyMaterialProject from "./assets/images/Projects/paperai_apy_material.mp4";
 import GeminiAiVertexdemoProject from "./assets/images/Projects/gemini-ai-vertex-demo.png";
 import indiWaterProject from "./assets/images/Projects/indiwater.png";
 import expenseTrackerProject from "./assets/images/Projects/expenseTracker.png";
@@ -100,6 +101,23 @@ export const content = {
       {
         count: "10+",
         text: "Projects Worked in my career",
+      },
+    ],
+    social_links: [
+      {
+        icon: BsLinkedin,
+        link: "https://www.linkedin.com/in/princemakavana61/",
+        label: "LinkedIn",
+      },
+      {
+        icon: AiFillGithub,
+        link: "https://github.com/PrinceMakavana/",
+        label: "GitHub",
+      },
+      {
+        icon: GrMail,
+        link: "mailto:contact@princemakvana.com",
+        label: "Email",
       },
     ],
   },
@@ -243,7 +261,14 @@ export const content = {
     subtitle: "MY CREATION",
     // image: person_project,
     project_content: [
-      
+      {
+        title: "Paper AI",
+        para: "AI-powered GTU study assistant built on APY Material. Generate paper solutions, chat with PDFs, summarize notes, and explore subject materials with Google Gemini — helping students prepare smarter for exams.",
+        image: paperAiApyMaterialProject,
+        code: "",
+        link: "https://ai.gtuapymaterials.com/",
+        ContentType: "video"
+      },
       {
         title: "QA Support Bot",
         para: "A support chatbot built with **Retrieval Augmented Generation (RAG)**. Crawl a website, ingest its content into a vector store, then ask questions and get answers grounded in that knowledge.",
@@ -261,7 +286,7 @@ export const content = {
         ContentType: "image"
       },
       {
-        title: "AI-Powered Document Analysis App",
+        title: "AI Analysis App",
         para: "This modern application enables interactive conversations with PDF documents using cutting-edge AI capabilities. It's built with Next.js 15, integrated with Gemini AI, OpenAI, and Pinecone, offering intelligent and context-aware document understanding through conversational interfaces.",
         image: GeminiAiVertexdemoProject,
         code: "",
