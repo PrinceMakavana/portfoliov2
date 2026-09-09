@@ -59,6 +59,7 @@ import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 import { AiFillGithub } from "react-icons/ai";
 import { GrSettingsOption } from "react-icons/gr";
+import { FaMedium, FaStackOverflow } from "react-icons/fa";
 
 export const content = {
   nav: [
@@ -105,6 +106,11 @@ export const content = {
     ],
     social_links: [
       {
+        icon: GrMail,
+        link: "mailto:contact@princemakvana.com",
+        label: "Email",
+      },
+      {
         icon: BsLinkedin,
         link: "https://www.linkedin.com/in/princemakavana61/",
         label: "LinkedIn",
@@ -115,10 +121,16 @@ export const content = {
         label: "GitHub",
       },
       {
-        icon: GrMail,
-        link: "mailto:contact@princemakvana.com",
-        label: "Email",
+        icon: FaMedium,
+        link: "https://medium.com/@princemakavana61",
+        label: "Medium",
       },
+      {
+        icon: FaStackOverflow,
+        link: "https://stackoverflow.com/users/14263951/i-am-prince",
+        label: "Stack Overflow",
+      },
+      
     ],
   },
   skills: {
@@ -402,6 +414,16 @@ export const content = {
         text: "PrinceMakavana",
         icon: AiFillGithub,
         link: "https://github.com/PrinceMakavana/",
+      },
+      {
+        text: "@princemakavana61",
+        icon: FaMedium,
+        link: "https://medium.com/@princemakavana61",
+      },
+      {
+        text: "I_am_prince",
+        icon: FaStackOverflow,
+        link: "https://stackoverflow.com/users/14263951/i-am-prince",
       },
     ],
   },
