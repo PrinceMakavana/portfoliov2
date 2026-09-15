@@ -1,6 +1,6 @@
 import { createElement } from "react";
 import { content } from "../Content";
-import Resume from "./../assets/Prince_Resume.pdf";
+const Resume = "/assets/Prince_Resume.pdf";
 
 const Hero = () => {
   const { hero } = content;

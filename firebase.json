@@ -5,6 +5,18 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/assets/Prince_Resume-CTEbj2gM.pdf",
+        "destination": "/assets/Prince_Resume.pdf",
+        "type": 301
+      },
+      {
+        "source": "/assets/Prince_Resume-DtyYS0DN.pdf",
+        "destination": "/assets/Prince_Resume.pdf",
+        "type": 301
+      }
     ]
   }
 }
