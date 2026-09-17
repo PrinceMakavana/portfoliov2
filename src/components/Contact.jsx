@@ -36,7 +36,7 @@ const Contact = () => {
   return (
     <section className="bg-white" id="contact">
       <Toaster />
-      <div className="md:container px-5 py-14">
+      <div className="md:container px-5 sm:py-14 py-10">
         <h2 className="title" data-aos="fade-down">
           {Contact.title}
         </h2>

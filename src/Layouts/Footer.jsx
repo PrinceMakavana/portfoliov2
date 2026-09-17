@@ -47,7 +47,7 @@ function Footer() {
         >
           <div className="flex w-full translate-y-[37.5%] items-center justify-center">
             <svg
-              className="container size-full"
+              className="container size-full sm:size-auto md:size-full p-0 sm:px-[14px] "
               viewBox="0 0 1410 258"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

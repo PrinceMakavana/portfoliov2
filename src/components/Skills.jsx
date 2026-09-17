@@ -5,7 +5,7 @@ const Skills = () => {
 
   return (
     <section className="min-h-fit bg-bg_light_primary" id="skills">
-      <div className="md:container px-5 py-14">
+      <div className="md:container px-5 sm:py-14 py-10">
         <h2 data-aos="fade-down" className="title">
           {skills.title}
         </h2>
@@ -26,18 +26,18 @@ const Skills = () => {
                 <span >{group.category}:</span>
               </p>
 
-              <div className="flex flex-wrap items-center gap-2.5">
+              <div className="flex flex-wrap items-center gap-1.5 md:gap-2.5">
                 {group.skills.map((skill) => (
                   <div
                     key={skill.name}
-                    className="group flex items-center gap-2.5 bg-white border border-slate-200 rounded-md px-3 py-2 shadow-sm hover:border-dark_primary/40 hover:shadow-md transition-all duration-200 "
+                    className="group flex items-center gap-1.5 md:gap-2.5 bg-white border border-slate-200 rounded-md px-2 py-1 md:px-3 md:py-2 shadow-sm hover:border-dark_primary/40 hover:shadow-md transition-all duration-200"
                   >
                     <img
                       src={skill.logo}
                       alt=""
-                      className="w-6 h-6 object-contain shrink-0 group-hover:scale-110 transition-transform duration-200"
+                      className="w-4 h-4 md:w-6 md:h-6 object-contain shrink-0 group-hover:scale-110 transition-transform duration-200"
                     />
-                    <span className="text-sm font-medium text-dark_primary whitespace-nowrap">
+                    <span className="text-xs md:text-sm font-medium text-dark_primary whitespace-nowrap">
                       {skill.name}
                     </span>
                   </div>

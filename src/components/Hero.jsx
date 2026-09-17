@@ -21,8 +21,8 @@ const Hero = () => {
           data-aos='fade-down'
           className='w-full flex flex-col gap-4 max-w-2xl pb-16 md:pb-0 md:pt-2 items-center md:items-start text-center md:text-left'
         >
-          <h1 className='text-[#EAF2FA]  tracking-tight'>
-            {hero.firstName}{" "}
+          <h1 className='text-[#EAF2FA]  tracking-tight leading-[1]'>
+            {hero.firstName}<br className="lg:block hidden" /> 
             <span className='text-dark_primary '> {hero.LastName}</span>
           </h1>
 

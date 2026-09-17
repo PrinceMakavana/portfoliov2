@@ -80,7 +80,7 @@ const Projects = () => {
           {Projects.project_content.map((project, i) => (
             <article
               key={i}
-              className="shrink-0 w-[min(90vw,28rem)] sm:w-[30rem] min-h-[25rem] h-fit bg-bg_light_primary rounded-2xl p-7 md:p-8 flex justify-between flex-col border border-slate-200 shadow-sm"
+              className="shrink-0 w-[min(90vw,28rem)] sm:w-[30rem] min-h-[25rem] h-full bg-bg_light_primary rounded-2xl p-7 md:p-8 flex justify-between flex-col border border-slate-200 shadow-sm"
             >
               <div className="flex flex-col gap-2 min-h-0 flex-1">
                 <div className="flex items-center border-b border-dashed border-dark_primary/15 hover:border-dark_primary transition-all duration-300 w-fit gap-3">
