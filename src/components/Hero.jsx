@@ -1,23 +1,14 @@
 import { createElement } from "react";
 import { content } from "../Content";
+import Tooltip from "../Layouts/Tooltip";
 const Resume = "/assets/Prince_Resume.pdf";
 
 const Hero = () => {
   const { hero } = content;
   return (
-    <section id="home">
-      <div className='min-h-screen relative flex md:flex-row flex-col md:items-center	 justify-center items-center bg-primaryLinear '>
-        {/* <div
-          data-aos="slide-right"
-          data-aos-delay="1200"
-          className="absolute h-full md:w-4/12 w-8/12 top-0 left-0 bg-primaryLinear bottom-0 -z-10"
-        >
-          <h1 className="rotate-90 absolute p-[30%] right-[-15%] text-[#EAF2FA]">
-            {hero.firstName}{" "}
-            <span className="text-dark_primary "> {hero.LastName}</span>
-          </h1>
-        </div> */}
-        <div className='md:h-[32rem] h-[15rem]'>
+    <section id='home'>
+      <div className='min-h-screen relative flex md:flex-row flex-col md:items-center justify-center items-center gap-6 md:gap-10 bg-primaryLinear px-6 md:px-10'>
+        <div className='md:h-[32rem] h-[15rem] shrink-0'>
           <img
             data-aos='slide-up'
             src={hero.image}
@@ -25,15 +16,31 @@ const Hero = () => {
             className='h-full object-cover rounded-full'
           />
         </div>
-        <div data-aos='fade-down' className='pb-16 pl-6 pt-5'>
-          <h1 className=' text-[#EAF2FA]'>
+
+        <div
+          data-aos='fade-down'
+          className='w-full flex flex-col gap-4 max-w-2xl pb-16 md:pb-0 md:pt-2 items-center md:items-start text-center md:text-left'
+        >
+          <h1 className='text-[#EAF2FA]  tracking-tight'>
             {hero.firstName}{" "}
             <span className='text-dark_primary '> {hero.LastName}</span>
           </h1>
-          <h2 className='title'>{hero.title}</h2>
-          <br />
-          <div className='flex items-center gap-3 justify-start'>
-            <a target='_blank' href={Resume} className='btn cursor-pointer'>
+
+          
+          <Tooltip content={hero.tagline}>
+          <p className=' font-semibold text-lg md:text-xl text-dark_primary/80 tracking-wide'>
+            {hero.title}
+          </p>
+          </Tooltip>
+
+
+          <div className=' flex flex-wrap items-center gap-3'>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href={Resume}
+              className='btn cursor-pointer hover:bg-[#EAF2FA]/60 transition-colors'
+            >
               {hero.btnText}
             </a>
             {hero.social_links.map((social, i) => (
@@ -49,21 +56,6 @@ const Hero = () => {
                   className: "text-xl text-dark_primary",
                 })}
               </a>
-            ))}
-          </div>
-          <div className='flex flex-col gap-10 mt-10'>
-            {hero.hero_content.map((content, i) => (
-              <div
-                key={i}
-                data-aos='fade-down'
-                data-aos-delay={i * 3}
-                className={`flex item-center w-80 gap-5  ${
-                  i === 1 && "flex-row-reverse text-right"
-                } `}
-              >
-                <h3>{content.count}</h3>
-                <p>{content.text}</p>
-              </div>
             ))}
           </div>
         </div>

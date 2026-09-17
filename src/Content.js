@@ -1,42 +1,48 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
 
-import cPlus from "./assets/images/Skills/c++.png";
 import htmlLogo from "./assets/images/Skills/html.png";
 import cssLogo from "./assets/images/Skills/css.png";
 import sassLogo from "./assets/images/Skills/sass.png";
 import bootstrapLogo from "./assets/images/Skills/bootstrap.png";
 import tailwindLogo from "./assets/images/Skills/tailwind.png";
-import javaScript from "./assets/images/Skills/javascript.png";
-import typescriptLogo from "./assets/images/Skills/typescript.png";
-import reactjs from "./assets/images/Skills/react.png";
-import reduxLogo from "./assets/images/Skills/redux.png";
 import muiLogo from "./assets/images/Skills/mui.png";
-import firebaseLogo from "./assets/images/Skills/firebase.png";
-import MongodbLogo from "./assets/images/Skills/mongodb.png";
-import githubLogo from "./assets/images/Skills/github.png";
-import awsLogo from "./assets/images/Skills/aws.png";
-import tiptapLogo from "./assets/images/Skills/tiptap.png";
-import vueJsLogo from "./assets/images/Skills/vuejs.png";
-import gcpLogo from "./assets/images/Skills/gcp.png";
-import langchainLogo from "./assets/images/Skills/langchain.png";
-import pineconeLogo from "./assets/images/Skills/pinecone.png";
+import shadcnLogo from "./assets/images/Skills/shadcn-ui-logo.png";
+import quasarLogo from "./assets/images/Skills/quasar.svg";
+import viteLogo from "./assets/images/Skills/vite.svg";
+import javascriptLogo from "./assets/images/Skills/javascript.png";
+import typescriptLogo from "./assets/images/Skills/typescript.png";
+import pythonLogo from "./assets/images/Skills/python.png";
+import reactLogo from "./assets/images/Skills/react.png";
+import reduxLogo from "./assets/images/Skills/redux.png";
 import nextjsLogo from "./assets/images/Skills/nextjs.png";
+import tiptapEditorLogo from "./assets/images/Skills/tiptap.png";
+import nodeLogo from "./assets/images/Skills/node.png";
+import expressLogo from "./assets/images/Skills/express.svg";
+import firebaseLogo from "./assets/images/Skills/firebase.png";
+import razorpayLogo from "./assets/images/Skills/razorpay.svg";
+import mysqlLogo from "./assets/images/Skills/mysql.svg";
+import postgresqlLogo from "./assets/images/Skills/postgresql.svg";
+import mongodbLogo from "./assets/images/Skills/mongodb.png";
+import pineconeLogo from "./assets/images/Skills/pinecone.png";
+import awsLogo from "./assets/images/Skills/aws.png";
+import gcpLogo from "./assets/images/Skills/gcp.png";
+import vercelLogo from "./assets/images/Skills/vercel.svg";
+import githubLogo from "./assets/images/Skills/github.png";
+import gitlabLogo from "./assets/images/Skills/gitlab.svg";
+import bitbucketLogo from "./assets/images/Skills/bitbucket.svg";
+import langchainLogo from "./assets/images/Skills/langchain.png";
+import openaiLogo from "./assets/images/Skills/openai.svg";
+import ollamaLogo from "./assets/images/Skills/ollama.svg";
+import claudeLogo from "./assets/images/Skills/claude.svg";
+import geminiLogo from "./assets/images/Skills/gemini.svg";
+import voLogo from "./assets/images/Skills/vo.svg";
+import cursorLogo from "./assets/images/Skills/cursor.svg";
+import antigravityLogo from "./assets/images/Skills/antigravity.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
-
-import codechefProject from "./assets/images/Projects/codechef.png";
-import apyMaterialProject from "./assets/images/Projects/apyMaterial.png";
-import paperAiApyMaterialProject from "./assets/images/Projects/paperai_apy_material.mp4";
-import GeminiAiVertexdemoProject from "./assets/images/Projects/gemini-ai-vertex-demo.png";
-import indiWaterProject from "./assets/images/Projects/indiwater.png";
-import expenseTrackerProject from "./assets/images/Projects/expenseTracker.png";
-import scientificCalculatorProject from "./assets/images/Projects/scientific_calculator.png";
-import QASupportBotProject from "./assets/images/Projects/qa_support_bot_by_prince_makavana.webm";
-// import project3 from "./assets/images/Projects/img3.png";
-// import person_project from "./assets/images/Projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/review1.jpeg";
 import reviewAvater2 from "./assets/images/reviewAvater2.jpeg";
@@ -89,21 +95,12 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
+    title: "Frontend Multi-Stack Developer",
     firstName: "PRINCE",
     LastName: "MAKAVANA",
     btnText: "Hire Me",
+    tagline: "I'm a frontend developer with over 3 years of experience in building and deploying production grade systems that fast, accessible, and scalable. I've pleasure of working with MERN stack along with Next.js, Vue.js, and TypeScript at The DevTime Tech., which has helped me adapt comfortably to different team environments and deliver thoughtful solutions even under tight timelines.",
     image: Hero_person,
-    hero_content: [
-      {
-        count: `${ Math.floor((Date.now() - new Date("2022-01-01")) / (1000 * 60 * 60 * 24 * 365)) }+`,
-        text: "Years of Experience in Web development",
-      },
-      {
-        count: "10+",
-        text: "Projects Worked in my career",
-      },
-    ],
     social_links: [
       {
         icon: GrMail,
@@ -137,113 +134,64 @@ export const content = {
     title: "Skills",
     subtitle: "MY TOP SKILLS",
     skills_content: [
+      {category: "Programming Languages",skills : [
+        {name: "JavaScript (ES6+)", logo: javascriptLogo},
+        {name: "TypeScript", logo: typescriptLogo},
+        {name: "Python", logo: pythonLogo},
+       ]},
       {
-        name: "C/C++",
-        para: "1 year",
-        logo: cPlus,
-      },
-      {
-        name: "HTML",
-        para: "+5 Year",
-        logo: htmlLogo,
-      },
-      {
-        name: "CSS",
-        para: "+5 Year",
-        logo: cssLogo,
-      },
-      {
-        name: "SASS",
-        para: "+3 Year",
-        logo: sassLogo,
-      },
-      {
-        name: "Bootstrap",
-        para: "+3 Year",
-        logo: bootstrapLogo,
-      },
-      {
-        name: "Tailwind",
-        para: "+3 Year",
-        logo: tailwindLogo,
-      },
-      {
-        name: "JavaScript",
-        para: "+4 Year",
-        logo: javaScript,
-      },
-      {
-        name: "TypeScript",
-        para: "+3 Year",
-        logo: typescriptLogo,
-      },
-      {
-       name: "Tiptap",
-       para: "+2 Year",
-       logo: tiptapLogo,
-     },
-      {
-        name: "Vue Js",
-        para: "+3 Year",
-        logo: vueJsLogo,
-      },
-      {
-        name: "React Js",
-        para: "+3 Year",
-        logo: reactjs,
-      },
-      {
-        name: "Next Js",
-        para: "+2 Year",
-        logo: nextjsLogo,
-      },
-      {
-        name: "Redux",
-        para: "+3 Year",
-        logo: reduxLogo,
-      },
-      {
-        name: "Mateiral Ui",
-        para: "+4 Year",
-        logo: muiLogo,
-      },
-      {
-        name: "Firebase",
-        para: "+4 Year",
-        logo: firebaseLogo,
-      },
-      {
-        name: "LangChain with RAG",
-        para: "beginner",
-        logo: langchainLogo,
-      },
-      {
-        name: "PineCone",
-        para: "beginner",
-        logo: pineconeLogo,
+        category: "Frontend", 
+        skills: [
+          {name: "HTML5", logo: htmlLogo},
+          {name: "CSS3", logo: cssLogo},
+          {name: "SCSS", logo: sassLogo},
+          {name: "Tailwind CSS", logo: tailwindLogo},
+          {name: "Bootstrap", logo: bootstrapLogo},
+          {name: "MUI", logo: muiLogo},
+          {name: "ShadCN", logo: shadcnLogo},
+          {name: "Quasar", logo: quasarLogo},
+          {name: "Vite", logo: viteLogo},
+        ]
       },
       
-      {
-        name: "MongoDB",
-        para: "+1 Year",
-        logo: MongodbLogo,
-      },
-      {
-        name: "Github",
-        para: "+5 Year",
-        logo: githubLogo,
-      },
-      {
-        name: "AWS",
-        para: "1 Year",
-        logo: awsLogo,
-      },
-    {
-        name: "Google Cloud Platform",
-        para: "+10 badge",
-        logo: gcpLogo,
-      },
-
+      {category: "Frameworks & Libraries",skills : [
+       {name: "React.js", logo: reactLogo},
+       {name: "Redux", logo: reduxLogo},
+       {name: "Next.js", logo: nextjsLogo},
+       {name: "Tiptap Editor", logo: tiptapEditorLogo},
+      ]},
+      {category: "Backend",skills : [
+       {name: "Node.js", logo: nodeLogo},
+       {name: "Express.js", logo: expressLogo},
+       {name: "Firebase (Auth, Hosting, Storage)", logo: firebaseLogo},
+       {name: "Razorpay", logo: razorpayLogo},
+      ]},
+      {category: "Database",skills : [
+       {name: "MySQL", logo: mysqlLogo},
+       {name: "PostgreSQL", logo: postgresqlLogo},
+       {name: "MongoDB", logo: mongodbLogo},
+       {name: "Pinecone (embeddings)", logo: pineconeLogo},
+      ]},
+      {category: "Cloud & Deployment",skills : [
+       {name: "AWS", logo: awsLogo},
+       {name: "GCP", logo: gcpLogo},
+       {name: "Vercel", logo: vercelLogo},
+      ]},
+      {category: "Version Control",skills : [
+       {name: "GitHub", logo: githubLogo},
+       {name: "GitLab", logo: gitlabLogo},
+       {name: "Bitbucket", logo: bitbucketLogo},
+      ]},
+      {category: "AI/ML & Developer Tools",skills : [
+       {name: "LangChain", logo: langchainLogo},
+       {name: "OpenAI", logo: openaiLogo},
+       {name: "Ollama", logo: ollamaLogo},
+       {name: "Claude", logo: claudeLogo},
+       {name: "Gemini", logo: geminiLogo},
+       {name: "Vo", logo: voLogo},
+       {name: "Cursor", logo: cursorLogo},
+       {name: "Antigravity", logo: antigravityLogo},
+      ]},
     ],
     icon: MdArrowForward,
   },
@@ -271,71 +219,102 @@ export const content = {
   Projects: {
     title: "Projects",
     subtitle: "MY CREATION",
-    // image: person_project,
     project_content: [
       {
         title: "Paper AI",
-        para: "AI-powered GTU study assistant built on APY Material. Generate paper solutions, chat with PDFs, summarize notes, and explore subject materials with Google Gemini — helping students prepare smarter for exams.",
-        image: paperAiApyMaterialProject,
+        tech: ["Next.js", "Google Gemini", "RAG", "PDF Chat"],
+        bullets: [
+          "AI-powered GTU study assistant built on APY Material for smarter exam prep",
+          "Generate paper solutions, chat with PDFs, and summarize notes with Google Gemini",
+          "Explore subject materials with conversational AI grounded in study content",
+        ],
+        tags: ["Next.js", "Gemini", "RAG", "PDF AI"],
         code: "",
         link: "https://ai.gtuapymaterials.com/",
-        ContentType: "video"
       },
       {
         title: "QA Support Bot",
-        para: "A support chatbot built with **Retrieval Augmented Generation (RAG)**. Crawl a website, ingest its content into a vector store, then ask questions and get answers grounded in that knowledge.",
-        image: QASupportBotProject,
+        tech: ["RAG", "Vector Store", "Web Crawling", "LLM"],
+        bullets: [
+          "Support chatbot built with Retrieval Augmented Generation (RAG)",
+          "Crawl a website and ingest content into a vector store for grounded answers",
+          "Ask questions and get responses backed by the ingested knowledge base",
+        ],
+        tags: ["RAG", "Vector DB", "LLM", "Chatbot"],
         code: "",
         link: "https://qa-support-bot.princemakavana.com",
-        ContentType: "video"
       },
       {
         title: "Apy Material",
-        para: "Here we are adding all books related to GTU Computer Engineering and this is famous and High Ranked on Google. (+1M impression on Google Search)",
-        image: apyMaterialProject,
+        tech: ["React", "Firebase", "SEO", "Content Platform"],
+        bullets: [
+          "Central hub for GTU Computer Engineering books and study materials",
+          "High-ranked educational resource with over 1M Google Search impressions",
+          "Organized subject-wise content for quick student access",
+        ],
+        tags: ["React", "Firebase", "SEO"],
         code: "",
         link: "https://www.gtuapymaterials.com",
-        ContentType: "image"
       },
       {
         title: "AI Analysis App",
-        para: "This modern application enables interactive conversations with PDF documents using cutting-edge AI capabilities. It's built with Next.js 15, integrated with Gemini AI, OpenAI, and Pinecone, offering intelligent and context-aware document understanding through conversational interfaces.",
-        image: GeminiAiVertexdemoProject,
+        tech: ["Next.js 15", "Gemini AI", "OpenAI", "Pinecone"],
+        bullets: [
+          "Interactive conversations with PDF documents using cutting-edge AI",
+          "Context-aware document understanding through conversational interfaces",
+          "Integrated Gemini AI, OpenAI, and Pinecone for intelligent retrieval",
+        ],
+        tags: ["Next.js 15", "Gemini", "OpenAI", "Pinecone"],
         code: "",
         link: "https://gemini-ai-vertex-demo.vercel.app/",
-        ContentType: "image"
       },
       {
         title: "Codechef Chapter",
-        para: "This is the Web-Site for Codechef GEC-Rajkot Chapter has been made by me.",
-        image: codechefProject,
+        tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        bullets: [
+          "Official website for Codechef GEC-Rajkot Chapter",
+          "Showcases chapter activities, events, and programming community",
+          "Deployed as a static site on GitHub Pages",
+        ],
+        tags: ["HTML", "CSS", "JavaScript"],
         code: "",
         link: "https://codechef-gec-rajkot-chapter.github.io/main/",
-        ContentType: "image"
       },
       {
         title: "indi Water",
-        para: "...",
-        image: indiWaterProject,
+        tech: ["React", "Firebase", "Web App"],
+        bullets: [
+          "Web application focused on water-related services and information",
+          "Built and deployed with Firebase for fast, reliable hosting",
+          "Responsive interface for everyday user access",
+        ],
+        tags: ["React", "Firebase"],
         code: "",
         link: "https://indiwater3.web.app/",
-        ContentType: "image"
       },
-      {
-        title: "Scientific Calculator",
-        para: "...",
-        image: scientificCalculatorProject,
-        code: "",
-        link: "https://princesimform.github.io/scientific-calculator/",
-        ContentType: "image"
-      },
+      // {
+      //   title: "Scientific Calculator",
+      //   tech: ["HTML", "CSS", "JavaScript"],
+      //   bullets: [
+      //     "Browser-based scientific calculator with advanced math operations",
+      //     "Clean, responsive UI for desktop and mobile use",
+      //     "Supports trigonometric, logarithmic, and algebraic functions",
+      //   ],
+      //   tags: ["HTML", "CSS", "JavaScript"],
+      //   code: "",
+      //   link: "https://princesimform.github.io/scientific-calculator/",
+      // },
       {
         title: "Expense Tracker",
-        para: "No need to remember the expenses. Use Split Bill to keep track of your bills and share your expenses with your friends.",
-        image: expenseTrackerProject,
+        tech: ["React", "Firebase", "Split Bill"],
+        bullets: [
+          "Track bills and shared expenses without remembering every detail",
+          "Split Bill flow to share costs with friends easily",
+          "Cloud-backed storage via Firebase for sync across sessions",
+        ],
+        tags: ["React", "Firebase", "Split Bill"],
         code: "",
         link: "https://expense-tracker-910c0.web.app/",
-        ContentType: "image",
       },
     ],
   },
@@ -361,6 +340,31 @@ export const content = {
         img: reviewAvater3,
         name: "Sacha Fournier",
       },
+      {
+        review:
+          "“Price was great, did everything that we asked for and very quickly”",
+      },
+      {
+        review:
+          "Get working with Prince. He has excellent skills with both frontend design and development. He was able to successfully do the project I needed and exceeded expectations. I'll certainly hire him again for my next project.",
+        name: "UI/UX Design",
+      },
+      {
+        review:
+          "Prince is a very proficient react developer that understands requirements and engineers well modularized code. Will be working with him in the future.",
+        name: "react-js developer to build frontend page using Material-UI kit",
+      },
+      {
+        review:
+          "Great guy, would work with him again",
+        name: "Next.js Full Stack Developer with TipTap.dev experience",
+      },
+      {
+        review:
+          "Good guy, great job, I highly recommend Prince !",
+        name: "New features Tiptap editor",
+      },
+      
     ],
   },
   // Hireme: {
@@ -402,7 +406,7 @@ export const content = {
     ],
   },
   Contact: {
-    title: "Contect Me",
+    title: "Contact Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {

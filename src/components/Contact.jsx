@@ -34,10 +34,10 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-dark_primary text-white" id="contact">
+    <section className="bg-white" id="contact">
       <Toaster />
       <div className="md:container px-5 py-14">
-        <h2 className="title !text-white" data-aos="fade-down">
+        <h2 className="title" data-aos="fade-down">
           {Contact.title}
         </h2>
         <h4 className="subtitle" data-aos="fade-down">
@@ -57,7 +57,7 @@ const Contact = () => {
               name="from_name"
               placeholder="Name"
               required
-              className="border border-slate-600 p-3 rounded"
+              className="border border-slate-300 bg-[#F5F9FD] p-3 rounded text-dark_primary placeholder:text-dark_primary/50"
             />
             <input
               type="email"
@@ -65,18 +65,15 @@ const Contact = () => {
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
               placeholder="Email Id"
               required
-              className="border border-slate-600 p-3 rounded"
+              className="border border-slate-300 bg-[#F5F9FD] p-3 rounded text-dark_primary placeholder:text-dark_primary/50"
             />
             <textarea
               name="message"
               placeholder="Message"
-              className="border border-slate-600 p-3 rounded h-44"
+              className="border border-slate-300 bg-[#F5F9FD] p-3 rounded h-44 text-dark_primary placeholder:text-dark_primary/50"
               required
             ></textarea>
-            <button
-              className="btn self-start
-            bg-white text-dark_primary"
-            >
+            <button className="btn self-start bg-[#EAF2FA] text-dark_primary hover:bg-[#D5E3F1] transition-colors">
               Submit
             </button>
           </form>
@@ -88,8 +85,8 @@ const Contact = () => {
                 data-aos-delay={i * 430}
                 className="flex items-center gap-2"
               >
-                <h4 className="text-white">{createElement(content.icon)}</h4>
-                <a className="font-Poppins" href={content.link} target="_blank">
+                <h4 className="text-dark_primary">{createElement(content.icon)}</h4>
+                <a className="font-Poppins text-dark_primary hover:text-dark_primary/70 transition-colors" href={content.link} target="_blank">
                   {content.text}
                 </a>
               </div>

@@ -6,8 +6,8 @@ function Experience() {
   const { Experience } = content;
   return (
     <section id="experience">
-      <div className='md:container px-5 pt-14  flex flex-col'>
-        <div>
+      <div className='md:container px-5 pt-14  flex flex-col '>
+        <div className="mb-5  ">
           <h2 data-aos='fade-down' className='title'>{Experience.title}</h2>
           <h2 data-aos='fade-down' className='subtitle'>{Experience.subtitle}</h2>
         </div>

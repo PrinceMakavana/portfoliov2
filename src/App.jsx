@@ -10,6 +10,8 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Experience from "./components/Experience";
+import Footer from "./Layouts/Footer";
+import SectionGradient from "./components/SectionGradient";
 const App = () => {
   useEffect(() => {
     Aos.init({
@@ -18,19 +20,21 @@ const App = () => {
     });
   }, []);
   return (
-    <div className='overflow-hidden'>
+    <div>
       <Navbar />
       <Hero />
+      <SectionGradient from="#D5E3F1" to="#F5F9FD" />
       <Skills />
-      <Service />
+      <SectionGradient from="#F5F9FD" to="#B6CCF5" />
       <Projects />
+      <SectionGradient from="#D5E3F1" to="#ffffff" />
       <Experience />
+      <SectionGradient from="#ffffff" to="#B6CCF5" />
       <Testimonials />
+      <SectionGradient from="#D5E3F1" to="#ffffff" />
       <Contact />
-      <footer className='p-3 text-center'>
-        <h6 className='mb-3'>Prince Makavana</h6>
-        <p>princemakavana © All CopyRights Reserved {new Date().getFullYear()}</p>
-      </footer>
+      <SectionGradient from="#ffffff" to="#B6CCF5" />
+      <Footer />
     </div>
   );
 };

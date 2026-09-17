@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /* Paprika */
 @import url("https://fonts.googleapis.com/css2?family=Paprika&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,6 +12,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    overflow-x: clip;
   }
   h1,
   h2,
@@ -63,37 +63,17 @@
   .subtitle {
     @apply text-gray 
   }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }
 .swiper-pagination-bullet {
   @apply w-3 h-3 bg-dark_primary;
 }
-
-.projects-swiper .swiper-wrapper {
-  align-items: stretch;
-}
-
-.projects-swiper .swiper-slide {
-  height: auto;
-}
-
-.testimonials-swiper .swiper-wrapper {
-  align-items: stretch;
-}
-
-.testimonials-swiper .swiper-slide {
-  height: auto;
-}
-
-.project-content-height-fix {
-  display: -webkit-box;
-  -webkit-line-clamp: 5;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-height: 125px;
-}
-
-
 
 /* Text ellipse for 2 line  */
 .ellipse-2 {
