@@ -1,7 +1,7 @@
 import { createElement } from "react";
 import { content } from "../Content";
 import Tooltip from "../Layouts/Tooltip";
-const Resume = "/assets/Prince_Resume.pdf";
+const Resume = "/assets/Prince_Makavana_Resume.pdf";
 
 const Hero = () => {
   const { hero } = content;
