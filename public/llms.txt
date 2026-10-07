@@ -1,6 +1,6 @@
 # Prince Makavana
 
-> Personal portfolio website for Prince Makavana, a frontend-focused web developer.
+> Prince Makavana is a Software Engineer with 3+ years of experience, Built and deployed production grade systems with MERN stack along with Next.js, and TypeScript also right now leveraging expertise in Python, AI Services.
 
 ## Site
 
@@ -10,7 +10,7 @@
 
 ## Summary
 
-Prince Makavana is a web developer with experience building frontend and full-stack web applications using React, Vue, Next.js, JavaScript, TypeScript, Tailwind CSS, Firebase, MongoDB, LangChain, Pinecone, AWS, and Google Cloud Platform.
+Software Engineer with 3+ years of experience, Built and deployed production grade systems with MERN stack along with Next.js, and TypeScript. Lastly contributed at The DevTime Tech with 99% uptime also right now leveraging expertise in Python, AI Services and Holds a B.E. in Computer Engineering degree from GEC-Rajkot.
 
 The website highlights:
 
@@ -20,6 +20,7 @@ The website highlights:
 - Testimonials and recommendations
 - Contact links
 
+
 ## Key Sections
 
 - Home: https://princemakavana.com/#home
@@ -27,6 +28,23 @@ The website highlights:
 - Projects: https://princemakavana.com/#projects
 - Experience: https://princemakavana.com/#experience
 - Contact: https://princemakavana.com/#contact
+
+
+## WORK EXPERIENCE
+
+Software Engineer (The DevTime Tech.) March 2022 – Aug 2026
+    • Built and maintained document editor using Tiptap with custom extension feature, enabling seamless
+multi-user collaborative editing for 500+ users.
+    • Delivered many high-quality features across React.js, Next.js projects with Redux & Context API state
+management in applications and contributed to consistent client satisfaction.
+    • Designed & developed AI LinkedIn Post writing B2B platform. developed a Role-based system with AI
+influence campaigns generation & Integrated LinkedIn Posts and Authentication APIs also added
+websocket for Realtime data.
+    • Led frontend for an advanced document error detection system and write code using PDF.js for real-time
+PDF highlights, commenting, and import/export that resulted in a boosting reviewer efficiency by
+40%.
+    • Developed realtime generative AI chat like ChatGPT with edit, regenerate, chat history, folder and
+favorites functionality.
 
 ## Selected Projects
 
